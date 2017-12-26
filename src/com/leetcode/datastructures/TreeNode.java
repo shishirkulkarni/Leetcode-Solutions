@@ -7,11 +7,13 @@ public class TreeNode {
 	public int value;
 	public TreeNode left;
 	public TreeNode right;
+	public int length;
 	
 	public TreeNode() {
 		value = 0;
 		left = null;
 		right = null;
+		length = 0;
 	}
 	
 	public TreeNode(int value) {
